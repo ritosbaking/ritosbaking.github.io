@@ -1,0 +1,103 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/bg.JPG);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+
+.nav-barre{
+    display: flex;
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    justify-content: space-between;
+    border: 1px solid rgba(253, 252, 252, 0.753);
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgba(128, 128, 128, 0.829);
+    background-color: grey;
+}
+.nav-barre>div>a:hover{
+    color: red;
+    background-color: rgb(14, 11, 11);
+    border-radius: 5px;
+    
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    
+    
+}
+div.logo{
+    width: 100%;
+    height: 300px;
+}
+.logo>img{
+    width: 100%;
+    height: 200px;
+}
+.pre{
+    width: 90%;
+    height: auto;
+    background-color: rgba(128, 128, 128, 0.568);
+    border: 1px solid rgba(169, 169, 169, 0.753);
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgba(128, 128, 128, 0.829) ;
+}
+.recettes{
+    width: 60%;
+    background-color: rgba(128, 128, 128, 0.568);
+    border: 1px solid rgba(253, 252, 252, 0.753);
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgba(128, 128, 128, 0.829);
+}
+.recettes>div{
+    width: 100%;
+    height: 20px;
+    margin: 20px;
+    
+}
+.recettes>div>a:hover{
+    color: red;
+    font-size: large;
+    
+}
+
+
+.photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.808);
+    
+}
+.milieu{
+    width: auto;
+    height: auto;
+    padding: 200px;
+
+    
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.568);
+    bottom: -21px;
+    text-align: center;
+}
+
